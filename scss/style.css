@@ -618,4 +618,15 @@ body {
 .owl-carousel .item-video {
   height: 300px;
 }
+
+@media only screen and (max-width: 768px) {
+  #desktop-slides {
+    display: none;
+    visibility: hidden;
+  }
+  #mobile-slides {
+    display: block;
+    visibility: visible;
+  }
+}
 /*# sourceMappingURL=style.css.map */

@@ -33,11 +33,13 @@ $(document).ready(function() {
         });
     }
    
+
     $('#slides').superslides({
         animation: 'fade',
         play: 5000,
         pagination: false
     });
+    
 
     var typed = new Typed(".typed", {
         strings: ["Graphic Designer.", "UI/UX Designer." , "Web Designer."],
