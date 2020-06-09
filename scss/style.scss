@@ -16,7 +16,7 @@ body {
     background: linear-gradient(145deg, #7ea5d9, #6a8bb7);
     letter-spacing: 1px;
     height: 100%;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
 
@@ -233,9 +233,10 @@ margin: 0;
   .filter a{
       color:$color3;
       border: 1px solid $color3;
-      border-radius: 10px;
+      border-radius: 5px;
       padding: 10px 18px;
       display: block;
+      font-weight: 500;
   }
 
   .filter a:hover{
@@ -405,7 +406,7 @@ text-decoration: none;
 
     #navigation {
         background-color: $color5;
-        padding: 10px 10px;
+        padding: 20px 10px;
         z-index: 100;
         transition: background-color 1s;
         -webkit-transition: background-color 1s;
@@ -415,13 +416,10 @@ text-decoration: none;
         
     }
 
-    #navigation ul {
-        margin-right: 100px;
-    }
-
     #navigation li {
         padding: 0 20px;
-        text-align: center;     
+        text-align: center;  
+        font-weight: 500;   
     }
 
     #navigation li a {
@@ -600,10 +598,6 @@ text-decoration: none;
 .projectImage {
     max-width: 100%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.projectText {
-    text-align: justify;
 }
 
 .owl-carousel .item-video {
