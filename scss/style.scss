@@ -12,7 +12,6 @@ html {
   }
 
 body {
-    font-size: 22px;
     color: #333;
     background: linear-gradient(145deg, #7ea5d9, #6a8bb7);
     letter-spacing: 1px;
@@ -70,7 +69,6 @@ body {
 }
 
 .titleMain {
-    font-size: 60px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 7px;
@@ -78,14 +76,13 @@ body {
 }
 
 .titleSub {
-    font-size: 40px;
     font-weight: 400;
     letter-spacing: 5px;
     color: $color1;
 }
 
 .section {
-    padding: 40px 0;
+    padding: 50px 0px;
 }
 
 #about {
@@ -102,17 +99,12 @@ body {
     background-color: $color1;
 }
 .skilltitle {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .skillsSection {
     background: $color4;
     color: white;
-}
-
-.skillSection p {
-    line-height: 1.8;
-    font-size: 20px;
 }
 
 .contactSection {
@@ -130,11 +122,7 @@ body {
     border: 2px solid $color3;
     letter-spacing: 0.03em;
     background: $color3;
-    border-radius: 15px;
-    padding: 13px;
-    padding-left: 20px;
-    padding-right: 20px;
-    font-size: 18px;
+    padding: 7px;
     transition: 0.5s;
     color: $color1;
 }
@@ -168,7 +156,7 @@ body {
 .chart .percent {
     line-height: 152px;
     display: inline-block;
-    font-size: 35px;
+    font-size: 25px;
 }
 
 .chart .percent:after {
@@ -240,7 +228,6 @@ margin: 0;
 .filter {
     text-align: center;
     width: 100%;
-    font-size: 18px;
 }
 
   .filter a{
@@ -418,8 +405,7 @@ text-decoration: none;
 
     #navigation {
         background-color: $color5;
-        text-transform: uppercase;
-        padding: 30px 10px;
+        padding: 10px 10px;
         z-index: 100;
         transition: background-color 1s;
         -webkit-transition: background-color 1s;
@@ -434,10 +420,8 @@ text-decoration: none;
     }
 
     #navigation li {
-        padding: 0 50px;
+        padding: 0 20px;
         text-align: center;     
-        font-size: 18px;
-        font-weight: 600;
     }
 
     #navigation li a {
@@ -548,8 +532,8 @@ text-decoration: none;
     border-radius: 50px;
     background-color: $color3;
     border: 1px solid $color3;
-    width: 70px;
-    height:70px;
+    width: 40px;
+    height:40px;
     display: inline-block;
     margin: 20px;
     transition: 0.5s;
@@ -557,8 +541,8 @@ text-decoration: none;
 
 
 #socialmedia i {
-    margin-top: 20px;
-    font-size: 30px;
+    margin-top: 10px;
+    font-size: 20px;
     color: $color1;
 }
 
@@ -577,11 +561,7 @@ text-decoration: none;
     border: 2px solid $color3;
     letter-spacing: 0.03em;
     background: $color3;
-    border-radius: 15px;
-    padding: 13px;
-    padding-left: 20px;
-    padding-right: 20px;
-    font-size: 18px;
+    padding: 7px;
     transition: 0.5s;
     color: $color1;
 }
@@ -590,10 +570,6 @@ text-decoration: none;
     color: $color3;
     background-color: $color1;
     border: 2px solid $color3;
-    }
-
-.boldfont {
-    font-size: 45px;
     }
 
 .categorytitle {
@@ -610,10 +586,6 @@ text-decoration: none;
     background-color: $color1;
 }
 
-#portfoliodescription .container{
-    max-width: 1500px;
-}
-
 .projectCard {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 40px;
@@ -623,7 +595,6 @@ text-decoration: none;
 
 .projectTitle {
     text-align: center;
-    font-size: 40px;
 }
 
 .projectImage {

@@ -5,7 +5,6 @@ html {
 }
 
 body {
-  font-size: 22px;
   color: #333;
   background: linear-gradient(145deg, #7ea5d9, #6a8bb7);
   letter-spacing: 1px;
@@ -61,7 +60,6 @@ body {
 }
 
 .titleMain {
-  font-size: 60px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 7px;
@@ -69,14 +67,13 @@ body {
 }
 
 .titleSub {
-  font-size: 40px;
   font-weight: 400;
   letter-spacing: 5px;
   color: #ffffff;
 }
 
 .section {
-  padding: 40px 0;
+  padding: 50px 0px;
 }
 
 #about {
@@ -95,17 +92,12 @@ body {
 }
 
 .skilltitle {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .skillsSection {
   background: #008299;
   color: white;
-}
-
-.skillSection p {
-  line-height: 1.8;
-  font-size: 20px;
 }
 
 .contactSection {
@@ -123,11 +115,7 @@ body {
   border: 2px solid #ff636e;
   letter-spacing: 0.03em;
   background: #ff636e;
-  border-radius: 15px;
-  padding: 13px;
-  padding-left: 20px;
-  padding-right: 20px;
-  font-size: 18px;
+  padding: 7px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   color: #ffffff;
@@ -162,7 +150,7 @@ body {
 .chart .percent {
   line-height: 152px;
   display: inline-block;
-  font-size: 35px;
+  font-size: 25px;
 }
 
 .chart .percent:after {
@@ -233,7 +221,6 @@ body {
 .filter {
   text-align: center;
   width: 100%;
-  font-size: 18px;
 }
 
 .filter a {
@@ -406,8 +393,7 @@ body {
 
 #navigation {
   background-color: #092138;
-  text-transform: uppercase;
-  padding: 30px 10px;
+  padding: 10px 10px;
   z-index: 100;
   transition: background-color 1s;
   -webkit-transition: background-color 1s;
@@ -421,10 +407,8 @@ body {
 }
 
 #navigation li {
-  padding: 0 50px;
+  padding: 0 20px;
   text-align: center;
-  font-size: 18px;
-  font-weight: 600;
 }
 
 #navigation li a {
@@ -559,8 +543,8 @@ body {
   border-radius: 50px;
   background-color: #ff636e;
   border: 1px solid #ff636e;
-  width: 70px;
-  height: 70px;
+  width: 40px;
+  height: 40px;
   display: inline-block;
   margin: 20px;
   -webkit-transition: 0.5s;
@@ -568,8 +552,8 @@ body {
 }
 
 #socialmedia i {
-  margin-top: 20px;
-  font-size: 30px;
+  margin-top: 10px;
+  font-size: 20px;
   color: #ffffff;
 }
 
@@ -588,11 +572,7 @@ body {
   border: 2px solid #ff636e;
   letter-spacing: 0.03em;
   background: #ff636e;
-  border-radius: 15px;
-  padding: 13px;
-  padding-left: 20px;
-  padding-right: 20px;
-  font-size: 18px;
+  padding: 7px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   color: #ffffff;
@@ -602,10 +582,6 @@ body {
   color: #ff636e;
   background-color: #ffffff;
   border: 2px solid #ff636e;
-}
-
-.boldfont {
-  font-size: 45px;
 }
 
 .categorytitle {
@@ -622,10 +598,6 @@ body {
   background-color: #ffffff;
 }
 
-#portfoliodescription .container {
-  max-width: 1500px;
-}
-
 .projectCard {
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -636,7 +608,6 @@ body {
 
 .projectTitle {
   text-align: center;
-  font-size: 40px;
 }
 
 .projectImage {
