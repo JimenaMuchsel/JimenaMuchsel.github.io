@@ -227,7 +227,7 @@ body {
   color: #ff636e;
   border: 1px solid #ff636e;
   border-radius: 5px;
-  padding: 10px 18px;
+  padding: 5px 10px;
   display: block;
   font-weight: 500;
 }
@@ -258,6 +258,7 @@ body {
 
 .itemsContainer ul {
   text-align: center;
+  margin: 40px;
 }
 
 .items li {
