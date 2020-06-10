@@ -223,6 +223,10 @@ body {
   width: 100%;
 }
 
+#filters {
+  padding-left: 0px;
+}
+
 .filter a {
   color: #ff636e;
   border: 1px solid #ff636e;
